@@ -52,8 +52,7 @@ To develop and run the frontend in a Tauri window:
 pnpm dev
 ```
 
-This will load the Next.js frontend directly in a Tauri webview window, in addition to
-starting a development server on `localhost:3000`, but Tauri is not supposed to run on a web server.
+This will load the Next.js frontend directly in a Tauri webview window.
 
 ### Source structure
 

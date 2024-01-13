@@ -19,19 +19,6 @@ async fn main() {
     write_to_file_in_powershell("get_system_info.ps1");
     // Files that change are added to .taurignore to avoid rebuilds
     let system_info: Value = read_system_info_file().unwrap();
-/*     loop {
-        // Sleep for 10 seconds before the next iteration
-        let processes = read_processes_file().unwrap();
-        tauri::Builder::default()
-        .invoke_handler(tauri::generate_handler![
-            get_system_info_data, 
-            get_processes_data,
-            stop_process
-        ])
-        .run(tauri::generate_context!())
-        .expect("error while running tauri application");
-        sleep(Duration::from_secs(10)).await;
-    } */
     let processes = read_processes_file().unwrap();
     tauri::Builder::default()
     .invoke_handler(tauri::generate_handler![
