@@ -1,0 +1,218 @@
+﻿Process Group: Code
+Process Count: 27
+Total CPU Time: 6064.47 seconds
+Total WS: 1512MB
+CPU %: 16.1%
+--------------------------
+Process Group: chrome
+Process Count: 43
+Total CPU Time: 2555.95 seconds
+Total WS: 3361MB
+CPU %: 6.8%
+--------------------------
+Process Group: kited
+Process Count: 1
+Total CPU Time: 1259.14 seconds
+Total WS: 104MB
+CPU %: 3.3%
+--------------------------
+Process Group: AvastUI
+Process Count: 4
+Total CPU Time: 308.16 seconds
+Total WS: 78MB
+CPU %: 0.8%
+--------------------------
+Process Group: explorer
+Process Count: 1
+Total CPU Time: 298.84 seconds
+Total WS: 110MB
+CPU %: 0.8%
+--------------------------
+Process Group: LCore
+Process Count: 1
+Total CPU Time: 267.03 seconds
+Total WS: 12MB
+CPU %: 0.7%
+--------------------------
+Process Group: Adobe CEF Helper
+Process Count: 4
+Total CPU Time: 199.89 seconds
+Total WS: 64MB
+CPU %: 0.5%
+--------------------------
+Process Group: rust-analyzer
+Process Count: 1
+Total CPU Time: 161.23 seconds
+Total WS: 5MB
+CPU %: 0.4%
+--------------------------
+Process Group: node
+Process Count: 8
+Total CPU Time: 129.84 seconds
+Total WS: 234MB
+CPU %: 0.3%
+--------------------------
+Process Group: ctfmon
+Process Count: 1
+Total CPU Time: 128.48 seconds
+Total WS: 17MB
+CPU %: 0.3%
+--------------------------
+Process Group: Everything
+Process Count: 2
+Total CPU Time: 92.69 seconds
+Total WS: 146MB
+CPU %: 0.2%
+--------------------------
+Process Group: slack
+Process Count: 6
+Total CPU Time: 92.33 seconds
+Total WS: 341MB
+CPU %: 0.2%
+--------------------------
+Process Group: Creative Cloud
+Process Count: 1
+Total CPU Time: 73.66 seconds
+Total WS: 16MB
+CPU %: 0.2%
+--------------------------
+Process Group: mintty
+Process Count: 1
+Total CPU Time: 64.64 seconds
+Total WS: 15MB
+CPU %: 0.2%
+--------------------------
+Process Group: Adobe Desktop Service
+Process Count: 1
+Total CPU Time: 47.59 seconds
+Total WS: 21MB
+CPU %: 0.1%
+--------------------------
+Process Group: OneDrive
+Process Count: 1
+Total CPU Time: 36.55 seconds
+Total WS: 28MB
+CPU %: 0.1%
+--------------------------
+Process Group: Taskmgr
+Process Count: 1
+Total CPU Time: 32.25 seconds
+Total WS: 72MB
+CPU %: 0.1%
+--------------------------
+Process Group: svchost
+Process Count: 79
+Total CPU Time: 31.25 seconds
+Total WS: 840MB
+CPU %: 0.1%
+--------------------------
+Process Group: msedge
+Process Count: 10
+Total CPU Time: 30.62 seconds
+Total WS: 318MB
+CPU %: 0.1%
+--------------------------
+Process Group: msedgewebview2
+Process Count: 6
+Total CPU Time: 30.28 seconds
+Total WS: 296MB
+CPU %: 0.1%
+--------------------------
+Process Group: TextInputHost
+Process Count: 1
+Total CPU Time: 23.97 seconds
+Total WS: 13MB
+CPU %: 0.1%
+--------------------------
+Process Group: powershell
+Process Count: 4
+Total CPU Time: 23.91 seconds
+Total WS: 180MB
+CPU %: 0.1%
+--------------------------
+Process Group: CoreSync
+Process Count: 1
+Total CPU Time: 21.45 seconds
+Total WS: 10MB
+CPU %: 0.1%
+--------------------------
+Process Group: AdobeIPCBroker
+Process Count: 1
+Total CPU Time: 18.23 seconds
+Total WS: 10MB
+CPU %: 0%
+--------------------------
+Process Group: Creative Cloud Helper
+Process Count: 1
+Total CPU Time: 17.83 seconds
+Total WS: 11MB
+CPU %: 0%
+--------------------------
+Process Group: CCleaner64
+Process Count: 1
+Total CPU Time: 13.84 seconds
+Total WS: 13MB
+CPU %: 0%
+--------------------------
+Process Group: nvcontainer
+Process Count: 2
+Total CPU Time: 9.34 seconds
+Total WS: 31MB
+CPU %: 0%
+--------------------------
+Process Group: taskhostw
+Process Count: 2
+Total CPU Time: 8.89 seconds
+Total WS: 32MB
+CPU %: 0%
+--------------------------
+Process Group: conhost
+Process Count: 8
+Total CPU Time: 8.2 seconds
+Total WS: 57MB
+CPU %: 0%
+--------------------------
+Process Group: SearchApp
+Process Count: 2
+Total CPU Time: 7.53 seconds
+Total WS: 30MB
+CPU %: 0%
+--------------------------
+Process Group: RuntimeBroker
+Process Count: 2
+Total CPU Time: 6.95 seconds
+Total WS: 29MB
+CPU %: 0%
+--------------------------
+Process Group: sihost
+Process Count: 1
+Total CPU Time: 5.77 seconds
+Total WS: 23MB
+CPU %: 0%
+--------------------------
+Process Group: notepad
+Process Count: 1
+Total CPU Time: 3.09 seconds
+Total WS: 45MB
+CPU %: 0%
+--------------------------
+Process Group: rust-analyzer-proc-macro-srv
+Process Count: 1
+Total CPU Time: 2.86 seconds
+Total WS: 11MB
+CPU %: 0%
+--------------------------
+Process Group: tauri-nextjs-template
+Process Count: 1
+Total CPU Time: 1.48 seconds
+Total WS: 24MB
+CPU %: 0%
+--------------------------
+Process Group: bash
+Process Count: 1
+Total CPU Time: 1.19 seconds
+Total WS: 7MB
+CPU %: 0%
+--------------------------
+Total CPU usage: 7%
+Total memory usage: 99%
