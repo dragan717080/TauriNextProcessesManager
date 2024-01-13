@@ -1,4 +1,4 @@
-## <a name="no-link"></a>Tauri + Next.js Task Manager for Windows
+## <a name="no-link"></a> Tauri + Next.js Task Manager for Windows
 
 Task Manager desktop app for Windows built with Next.js, Tauri and Powershell.
 This app uses **pnpm** as the Node.js dependency
