@@ -1,4 +1,4 @@
-## <a name="no-link"></a># Tauri + Next.js Task Manager for Windows
+## <a name="no-link"></a>Tauri + Next.js Task Manager for Windows
 
 Task Manager desktop app for Windows built with Next.js, Tauri and Powershell.
 This app uses **pnpm** as the Node.js dependency
@@ -13,7 +13,7 @@ Next.js is a React framework for building modern web applications. It provides s
 
 **Tauri**
 
-Tauri is a lightweight and flexible framework designed for building desktop applications with support for web technologies like server-side rendering (SSR) and static site generation (SSG). Written in Rust, it empowers developers to create modern, performant desktop applications.
+Tauri is a Rust based lightweight and flexible framework designed for building desktop applications with support for web technologies like server-side rendering (SSR) and static site generation (SSG). It creates modern, performant desktop applications.
 
 **PowerShell**
 
