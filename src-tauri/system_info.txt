@@ -8,9 +8,9 @@ Processor    : Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz
 Caption      : Intel64 Family 6 Model 60 Stepping 3
 Manufacturer : GenuineIntel
 Drive     : C:\
-Used (GB) : 225.22
-Free (GB) : 7.07
-Free %    : 3.04
+Used (GB) : 226.22
+Free (GB) : 6.07
+Free %    : 2.61
 
 Drive     : D:\
 Used (GB) : 220.04
@@ -18,6 +18,6 @@ Free (GB) : 7.49
 Free %    : 3.29
 
 Drive     : E:\
-Used (GB) : 211.47
-Free (GB) : 26.75
-Free %    : 11.23
+Used (GB) : 211.45
+Free (GB) : 26.77
+Free %    : 11.24

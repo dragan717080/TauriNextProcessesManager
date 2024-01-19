@@ -5,6 +5,8 @@ This app uses **pnpm** as the Node.js dependency
 manager. Performant thanks to Rust on the backend, good looking
 with Next.js/Tailwind/Shadcn. Also you need Rust to run this app.
 
+https://github.com/dragan717080/TauriNextProcessesManager/assets/135660124/41690219-542a-4fdc-ba1a-dd5e7a951f5a
+
 ## <a name="no-link"></a>Technologies Used
 
 - **Next.js**
