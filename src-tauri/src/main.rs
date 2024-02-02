@@ -8,7 +8,7 @@ use std::process::Command;
 use tokio::time::{sleep, Duration};
 use std::fs::File;
 use std::io::{BufRead, BufReader, Error as IOError, ErrorKind};
-use serde_json::{json, Value, to_string_pretty};
+use serde_json::{json, Value};
 
 mod utils;
 use utils::{convert_value_type, read_line_as_key_value_pair, push_lines_to_json_arr};
@@ -102,25 +102,18 @@ fn read_system_info_file() -> Result<Value, IOError> {
 
     let mut drives_json_arr: Vec<Value> = Vec::new();
 
-    while let Some(line1) = drive_info_lines.next() {
-        if let Some(line2) = drive_info_lines.next() {
-            if let Some(line3) = drive_info_lines.next() {
-                if let Some(line4) = drive_info_lines.next() {
-                    // This check is needed to obtain full data from all drives
-                    if let Some(_) = drive_info_lines.next() {
-                        drives_json_arr = push_lines_to_json_arr([line1.unwrap(), line2.unwrap(), line3.unwrap(), line4.unwrap()].to_vec(), drives_json_arr);
-                    }
-                    // Last drive doesn't have empty line at the end
-                    else {
-                        drives_json_arr = push_lines_to_json_arr([line1.unwrap(), line2.unwrap(), line3.unwrap(), line4.unwrap()].to_vec(), drives_json_arr);
-                    }
-                } else {
-                    println!("Incomplete group of lines");
-                    break;
-                }
-            }
+    let mut drive_info_lines_clone = drive_info_lines.by_ref();
+
+    // Collect the first four lines
+    let first_four_lines: Vec<String> = drive_info_lines_clone.take(4).map(|result| result.unwrap()).collect();
+        // This check is needed to obtain full data from all drives
+        if let Some(_) = drive_info_lines_clone.next() {
+            drives_json_arr = push_lines_to_json_arr(first_four_lines.to_vec(), drives_json_arr);
         }
-    }
+        // Last drive doesn't have empty line at the end
+        else {
+            drives_json_arr = push_lines_to_json_arr(first_four_lines.to_vec(), drives_json_arr);
+        }
 
     result_json["drives"] = Value::Array(drives_json_arr);
 
